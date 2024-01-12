@@ -1,0 +1,59 @@
+/* Basic card styling */
+.whole-card {
+  /* position: relative;
+  margin: 0;
+  padding: 0; */
+}
+
+.card {
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.2s ease-in-out;
+  /* width: auto; */
+  margin: 1rem;
+  padding: 0;
+  position: relative;
+
+}
+
+.favorite {
+  position: absolute;
+  top: 5%;
+  right: 10%;
+  color: gray;
+  width: 2rem;
+  height: 2rem;
+  /* z-index: 100; */
+  /* cursor: pointer; */
+}
+
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* Card poster */
+.card .poster {
+  width: 100%;
+  height: auto;
+  padding: 0;
+  margin: 0;
+}
+
+/* Card content */
+.card-content {
+  padding: 20px;
+}
+
+.card-content h3 {
+  font-size: 1.2rem;
+  color: #333333;
+}
+
+.card-content p {
+  font-size: 1rem;
+  color: #666666;
+}
+
